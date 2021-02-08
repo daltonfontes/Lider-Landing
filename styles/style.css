@@ -14,13 +14,28 @@ html, body {
 }
 
 
+
 /*--HEADER--*/
 
-header {
+section .header {
     display: flex;
     justify-content: center;
     min-height: 100vh;
     width: 100%;
     align-items: center;
+    flex-direction: column;
+    background: url('/assets/background-header.png');
+    background-size: cover;
     background-color: #007F2D;
 }
+
+.header .logo {
+    margin: 50px;
+}
+
+.header .textBox {
+    max-width: 50%;
+    text-align: center;
+    color: white;
+    margin: 100px;
+  }
