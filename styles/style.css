@@ -73,7 +73,7 @@ html, body {
     color: white;
   }
 
-  /*--FORMS--*/
+  /*--SOCIAL--*/
 
   .social {
     background: url('/assets/background-social.png');
@@ -86,6 +86,26 @@ html, body {
     font-size: 18px;
   }
 
+  /*--ADDRESS--*/
+
+  .address {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  .addressBox {
+    width: 50%;
+    height: 100ch;
+}
+
+iframe {
+    width: 50%;
+    height: 100ch;
+}
 
 
     /* 
