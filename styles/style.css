@@ -17,7 +17,7 @@ html, body {
 
 /*--HEADER--*/
 
-section .header {
+.header {
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -35,10 +35,14 @@ section .header {
 
 .header .textBox {
     max-width: 50%;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     color: white;
     margin: 100px;
+  }
+
+  .header .text__3 {
+    font-weight: 700;
   }
 
   .header .button {
