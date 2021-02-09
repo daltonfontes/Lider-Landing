@@ -63,6 +63,10 @@ section .header {
     section {
         flex-direction: column;
     }
+
+    .header .logo {
+        max-width: 90%;
+    }
     
   }
   
@@ -76,6 +80,10 @@ section .header {
     section {
         flex-direction: column;
     }
+
+    .header .logo {
+        max-width: 60%;
+    }
     
   }
   
@@ -88,6 +96,10 @@ section .header {
     
     section {
         flex-direction: column;
+    }
+
+    .header .logo {
+        max-width: 50%;
     }
     
   }
