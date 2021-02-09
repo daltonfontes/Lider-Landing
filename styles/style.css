@@ -60,10 +60,6 @@ section .header {
   */
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    section {
-        flex-direction: column;
-    }
-
     .header .logo {
         max-width: 90%;
     }
@@ -76,10 +72,6 @@ section .header {
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-    
-    section {
-        flex-direction: column;
-    }
 
     .header .logo {
         max-width: 60%;
@@ -93,13 +85,9 @@ section .header {
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
-    section {
-        flex-direction: column;
-    }
 
     .header .logo {
-        max-width: 50%;
+        max-width: 70%;
     }
     
   }
