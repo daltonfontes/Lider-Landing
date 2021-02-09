@@ -35,7 +35,19 @@ section .header {
 
 .header .textBox {
     max-width: 50%;
+    font-size: 16px;
     text-align: center;
     color: white;
     margin: 100px;
+  }
+
+  .header .button {
+    display: flex;
+    margin-top: 25px;
+    padding: 20px 25px;
+    background: white;
+    color: #007F2D;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
   }
