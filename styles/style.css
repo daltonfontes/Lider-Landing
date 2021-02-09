@@ -18,6 +18,7 @@ html, body {
 /*--HEADER--*/
 
 .header {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     min-height: 100vh;
@@ -29,16 +30,12 @@ html, body {
     background-color: #007F2D;
 }
 
-.header .logo {
-    margin: 50px;
-}
-
 .header .textBox {
     max-width: 50%;
     font-size: 18px;
     text-align: center;
     color: white;
-    margin: 100px;
+    margin-top: 100px;
   }
 
   .header .text__3 {
@@ -46,13 +43,22 @@ html, body {
   }
 
   .header .button {
+    font-weight: 700;
+    width: 30%;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    margin-top: 25px;
     background: white;
     color: #007F2D;
-    border-radius: 40px;
-    letter-spacing: 1px;
     text-decoration: none;
+  }
+
+  .header .arrow__down {
+    margin: 100px auto;
   }
 
   /*--FORMS--*/
@@ -70,6 +76,25 @@ html, body {
   .form .textBox {
     color: white;
   }
+
+  /*--FORMS--*/
+
+  .social {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background: url('/assets/background-social.png');
+    background-size: cover;
+    background-color:#EEAE32;
+  }
+
+  .social .textBox {
+    color: white;
+  }
+
 
 
     /* 
