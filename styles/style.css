@@ -48,7 +48,6 @@ html, body {
   .header .button {
     display: flex;
     margin-top: 25px;
-    padding: 20px 25px;
     background: white;
     color: #007F2D;
     border-radius: 40px;
@@ -56,6 +55,21 @@ html, body {
     text-decoration: none;
   }
 
+  /*--FORMS--*/
+
+  .form {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background: url('/assets/background-news.png');
+    background-size: cover;
+  }
+  .form .textBox {
+    color: white;
+  }
 
 
     /* 
