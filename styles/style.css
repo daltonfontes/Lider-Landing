@@ -158,15 +158,17 @@ html, body {
   
       .header .textBox{
       max-width: 90%;
+      font-size: 15px;
   }
 
-         .header .button {
-      width: 90%;
+      .header .button {
+      width: 80%;
+
   }
+  .social .celular__img{
+    width: 50%;
+    margin: 60px auto;
 
-
-  .social img{
-    display: none;
 }
 
     .social {
