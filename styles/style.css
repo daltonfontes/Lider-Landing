@@ -25,7 +25,7 @@ html, body {
 /*--HEADER--*/
 
 .header {
-    padding-top: 100px;
+    padding-top: 200px;
     display: flex;
     background: url('/assets/background-header.png');
     background-size: cover;
@@ -80,10 +80,22 @@ html, body {
     background-size: cover;
     background-color:#EEAE32;
   }
-
+  .social .logo {
+    transform: translateY(-20%);
+  }
+  .social .container {
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+  }
   .social .textBox {
     color: white;
     font-size: 18px;
+  }
+
+  .social .arrow__down {
+    margin: 100px auto;
   }
 
   /*--ADDRESS--*/
@@ -98,13 +110,13 @@ html, body {
   }
 
   .addressBox {
-    width: 50%;
-    height: 100ch;
+    width: 50vw;
+    height: 100vw;
 }
 
   iframe {
-    width: 50%;
-    height: 100ch;
+    width: 50vw;
+    height: 100vw;
   }
 
 
@@ -141,7 +153,24 @@ html, body {
   @media (min-width: 320px) and (max-width: 480px) {
 
     .header .logo {
-        max-width: 70%;
-    }
+      max-width: 90%;
+  }
+  
+      .header .textBox{
+      max-width: 90%;
+  }
+
+         .header .button {
+      width: 90%;
+  }
+
+
+  .social img{
+    display: none;
+}
+
+    .social {
+    width: 100vw;
+}
     
   }
