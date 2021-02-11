@@ -70,7 +70,39 @@ html, body {
     background-size: cover;
   }
   .form .textBox {
+    text-align: center;
     color: white;
+  }
+
+  .form p.text__2 {
+    padding: 45px 0;
+    font-size: 18px;
+  }
+
+  .form input.name {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 30px;
+    margin-right: 10px;
+  }
+
+  .form input.email {
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    padding: 0 30px;
+}
+  .form button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #007F2D;
+    margin-left: 10px;
   }
 
   /*--SOCIAL--*/
@@ -81,7 +113,7 @@ html, body {
     background-color:#EEAE32;
   }
   .social .logo {
-    transform: translateY(-20%);
+    transform: translateY(-100px);
   }
   .social .container {
     flex-direction: row;
