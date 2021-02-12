@@ -248,13 +248,13 @@ html, body {
       margin: 100px auto;
     }
   }
-    .form .textBox {
-      max-width: 90%
+    .form {
+      height: 100vh;
     }
-    .form h.text__1 {
-    width: 100vw;
-    font-size: 25px;
-  }
+    .form .textBox {
+      font-size: 18px;
+      width: 70vw;
+    }
 
   .social {
     width: 100vw;
