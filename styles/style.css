@@ -228,48 +228,32 @@ html, body {
     width: 50vw;
     height: 100vh;
   }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
+
+  @media screen and (max-width: 1039px) {
 
     .header .logo {
-        max-width: 60%;
+      max-width: 90%;
     }
     
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-
-    .header .logo {
-      max-width: 90%;
-  }
-  
-      .header .textBox{
+    .header .textBox {
       max-width: 90%;
       font-size: 15px;
+    }
+
+    .header .button {
+      width: 80% !important;
+    }
+  
+    .header .arrow__down {
+      margin: 100px auto;
+    }
   }
 
-      .header .button {
-      width: 80%;
-
-  }
-  .social .celular__img{
-    width: 50%;
-    margin: 60px auto;
-
-}
-
-    .social {
+    .form h.text__1 {
     width: 100vw;
-}
-    
+    font-size: 25px;
+  }
+
+  .social {
+    width: 100vw;
   }
