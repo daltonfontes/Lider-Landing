@@ -252,10 +252,32 @@ html, body {
       height: 100vh;
     }
     .form .textBox {
-      font-size: 18px;
       width: 70vw;
     }
 
+    .form h1.text__1 {
+      font-size: 1rem;
+    }
+
+    .form p.text__2 {
+      font-size: 0.75rem;
+    }
+
+    .form button, .form input {
+      margin: 40px !important;
+      width: 70vw !important;
+    }
+
+    .form input {
+      margin: 5px 40px !important;
+    }
+
+
   .social {
     width: 100vw;
+  }
+
+  .social .logo {
+    width: 100%;
+    transform: translateY(-50%);
   }
