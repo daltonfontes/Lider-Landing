@@ -248,7 +248,9 @@ html, body {
       margin: 100px auto;
     }
   }
-
+    .form .textBox {
+      max-width: 90%
+    }
     .form h.text__1 {
     width: 100vw;
     font-size: 25px;
