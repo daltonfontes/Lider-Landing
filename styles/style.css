@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+:root {
+  --main-color: #285701;
+  --main-text-color: white;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +18,7 @@ html, body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.header, .form, .social {
+.header, .form, .social, .address {
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -29,14 +35,14 @@ html, body {
     display: flex;
     background: url('/assets/background-header.png');
     background-size: cover;
-    background-color: #007F2D;
+    background-color: var(--main-color);
 }
 
 .header .textBox {
     max-width: 50%;
     font-size: 18px;
     text-align: center;
-    color: white;
+    color: var(--main-text-color);
     margin-top: 100px;
   }
 
@@ -54,8 +60,8 @@ html, body {
     justify-content: center;
     align-items: center;
     display: flex;
-    background: white;
-    color: #007F2D;
+    background: var(--main-text-color);
+    color: var(--main-color);
     text-decoration: none;
   }
 
@@ -71,7 +77,7 @@ html, body {
   }
   .form .textBox {
     text-align: center;
-    color: white;
+    color: var(--main-text-color);
   }
 
   .form p.text__2 {
@@ -100,8 +106,8 @@ html, body {
     height: 50px;
     border: none;
     border-radius: 15px;
-    color: white;
-    background-color: #007F2D;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
     margin-left: 10px;
   }
 
@@ -123,7 +129,7 @@ html, body {
   }
   .social .textBox {
     text-align: center;
-    color: white;
+    color: var(--main-text-color);
   }
 
   .social h1.text__2 {
@@ -142,10 +148,10 @@ html, body {
   .social a.instagran {
     width: 200px;
     height: 60px;
-    color: white;
+    color: var(--main-text-color);
     border: none;
     border-radius: 15px;
-    background-color: #007F2D;
+    background-color: var(--main-color);
     display: flex;
     text-decoration: none;
     margin: auto;
@@ -157,10 +163,10 @@ html, body {
   .social a.facebook {
     width: 200px;
     height: 60px;
-    color: white;
+    color: var(--main-text-color);
     border: none;
     border-radius: 15px;
-    background-color: #007F2D;
+    background-color: var(--main-color);
     display: flex;
     text-decoration: none;
     margin: auto;
@@ -184,20 +190,43 @@ html, body {
   .address {
     flex-direction: row;
     display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100%;
-    align-items: center;
+    height: 100vh
   }
 
   .addressBox {
     width: 50vw;
-    height: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
 }
+
+  .address p.text__1 {
+    font-size: 25px;
+  }
+
+  .address p.text__2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .address a.button__route {
+    border: none;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 15px;
+    width: 180px;
+    background-color: var(--main-color);
+    height: 50px;
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: space-evenly;
+  }
 
   iframe {
     width: 50vw;
-    height: 100vw;
+    height: 100vh;
   }
 
 
