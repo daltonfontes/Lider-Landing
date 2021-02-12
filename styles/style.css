@@ -117,14 +117,55 @@ html, body {
   }
   .social .container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     width: 100%;
   }
   .social .textBox {
+    text-align: center;
     color: white;
-    font-size: 18px;
   }
+
+  .social h1.text__2 {
+    font-size: 60px;
+  }
+
+  .social p.text__1 {
+    font-size: 30px;
+    padding: 40px;
+  }
+
+  .social .button__socials {
+    margin-top: 100px;
+  }
+
+  .social a.instagran {
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: #007F2D;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+
+  }
+
+  .social a.facebook {
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: #007F2D;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 100px;
+
+  }
+
 
   .social .arrow__down {
     margin: 100px auto;
