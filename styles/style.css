@@ -200,7 +200,7 @@ html, body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center
-}
+  }
 
   .address p.text__1 {
     font-size: 1.2rem;
@@ -229,7 +229,7 @@ html, body {
     height: 100vh;
   }
 
-  @media (min-width: 320px) and (max-width: 1039px) {
+  @media screen and (max-width: 1039px) {
 
     .header .logo {
       max-width: 90%;
@@ -264,12 +264,12 @@ html, body {
     }
 
     .form button, .form input {
-      margin: 10px 50px ;
-      width: 70vw;
+      margin: 10px 50px !important;
+      width: 70vw !important;
     }
 
-    .form input.name, form input.email {
-      margin: 5px 50px;
+    .form input {
+      margin: 5px 50px !important;
     }
 
     .social {
