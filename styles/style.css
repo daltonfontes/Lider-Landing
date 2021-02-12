@@ -203,11 +203,11 @@ html, body {
 }
 
   .address p.text__1 {
-    font-size: 25px;
+    font-size: 1.2rem;
   }
 
   .address p.text__2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
   }
 
@@ -227,19 +227,6 @@ html, body {
   iframe {
     width: 50vw;
     height: 100vh;
-  }
-
-
-    /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .header .logo {
-        max-width: 90%;
-    }
-    
   }
   
   /* 
